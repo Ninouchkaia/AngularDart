@@ -1,0 +1,27 @@
+<h1>!!! My First Angular Dart Application for Heroes !!!</h1>
+
+<h1>{{title}}</h1>
+<h2>{{hero.name}} details!</h2>
+<div><label>id: </label>{{hero.id}}</div>
+<div><label>name: </label>{{hero.name}}</div>
+
+
+<div>
+    <label>name: </label>
+    <input [(ng-model)]="hero.name" placeholder="name">
+</div>
+
+
+<div><label>level: </label>{{hero.level}}</div>
+<div><label>gainedExperience: </label>{{hero.gainedExperience}}</div>
+<div><label>neededExperienceToLevelUp: </label>{{hero.neededExperienceToLevelUp}}</div>
+<div><label>health: </label>{{hero.health}}</div>
+<div><label>mana: </label>{{hero.mana}}</div>
+<div><label>abilities: </label>{{hero.abilities}}</div>
+
+<!--
+<todo-list></todo-list>
+-->
+
+
+<Hero></Hero>

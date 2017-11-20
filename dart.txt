@@ -1,0 +1,3 @@
+Pour lancer le projet dart
+
+/c/Program\ Files/Dart/dart-sdk/bin/pub.bat serve web
